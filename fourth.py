@@ -10,7 +10,6 @@ class Circle:
         return 2 * math.pi * self.radius
 
 circle = Circle(5)
-# Выводим площадь и длину окружности
 print(f"Площадь окружности: {circle.area()}")
 print(f"Длина окружности: {circle.circumference()}")
 
